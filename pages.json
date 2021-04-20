@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "添加"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		}
+	],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/cart-active.png",
+	        "selectedIconPath": "static/img/cart-active.png",
+	        "text": "组件"
+	    }, 
+		{
+		    "pagePath": "pages/add/add",
+		    "iconPath": "static/img/cart-active.png",
+		    "selectedIconPath": "static/img/cart-active.png",
+		    "text": "组件"
+		},{
+	        "pagePath": "pages/user/user",
+	        "iconPath": "static/img/cart-active.png",
+	        "selectedIconPath": "static/img/cart-active.png",
+	        "text": "接口"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
