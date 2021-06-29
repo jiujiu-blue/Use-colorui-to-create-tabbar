@@ -26,19 +26,13 @@
 	    "backgroundColor": "#ffffff",
 	    "list": [{
 	        "pagePath": "pages/index/index",
-	        "iconPath": "static/img/cart-active.png",
-	        "selectedIconPath": "static/img/cart-active.png",
 	        "text": "组件"
 	    }, 
 		{
 		    "pagePath": "pages/add/add",
-		    "iconPath": "static/img/cart-active.png",
-		    "selectedIconPath": "static/img/cart-active.png",
 		    "text": "组件"
 		},{
 	        "pagePath": "pages/user/user",
-	        "iconPath": "static/img/cart-active.png",
-	        "selectedIconPath": "static/img/cart-active.png",
 	        "text": "接口"
 	    }]
 	},
